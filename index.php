@@ -23,7 +23,7 @@ $animalEnTrop = new Perroquet("Tropico", 1);
 $enclos->ajouterAnimal($lion);
 $enclos->ajouterAnimal($perroquet1);
 $enclos->ajouterAnimal($perroquet2);
-$enclos->ajouterAnimal($animalEnTrop); // doit être refusé
+$enclos->ajouterAnimal($animalEnTrop);
 
 $enclos->visiteGuidee();
 
